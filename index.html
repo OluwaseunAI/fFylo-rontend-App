@@ -12,31 +12,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"  rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/6ca0005b6d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="(https://fonts.google.com/specimen/Raleway)"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<title>Frontend Mentor | Fylo landing page with two column layout By Olayemi A.</title>
 </head>
 <body>
 <section class="first-section">
+    <nav>
+      <div class="navbar">
+        <div class="img-logo">
+          <img src="./images/logo.svg" alt="Fylo" class="logo">
+        </div>
+        <div class="nav-links">
+          <ul class="nav-list">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#" id="last">Sign in</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <div class="navbar">
-    <div class="img-logo">
-      <img src="./images/logo.svg" alt="Fylo logo">
-    </div>
-    <div class="nav-links">
-      <ul class="nav-list">
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#" id="last">Sign in</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="first-page">
     <div class="hero">
       <div class="hero-left">
         <div class="txt-input-btn">
-          <h1>All your files in one secure <br> location, accessible anywhere.</h1>
+          <h1 style>All your files in one secure location, accessible anywhere.</h1>
           <p>
-            Fylo stores your most important files in one secure location. Access<br>
-            them wherever you need, share and collaborate with friends, family,<br>
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
           <div class="input-btn">
@@ -49,7 +55,6 @@
         <img src="./images/illustration-1.svg" alt="hero-img" class="illustratn">
       </div>
     </div>
-  </div>
   <div>
     <img src="./images/bg-curve-desktop.svg" class="bottom-curve" alt="">
   </div>
@@ -61,10 +66,10 @@
       <p class="txt2">Stay productive, wherever you are</p>
       <p class="feature-p1">
         Never let location be an issue when accessing your files. Fylo has
-        you<br> covered for all of your file storage needs.</p>
+        you covered for all of your file storage needs.</p>
 
         <p class="feature-p2">
-        Securely share files and folders with friends, family and colleagues for<br> live collaboration. No email attachments required! <br />
+        Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!
         <a href="#"
           >See how Fylo works <img src="./images/icon-arrow.svg" alt=""
         /></a>
@@ -72,7 +77,7 @@
       <div class="blockquote">
         <div><img src="./images/icon-quotes.svg" alt="" /></div>
         <span>
-          Fylo has improved our team productivity by<br> an order of magnitude. Since making the<br> switch our team has become a well-oiled <br> collaboration machine.
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
         </span>
         <div class="blockquote-img">
           <img class="testimonial-img" src="./images/avatar-testimonial.jpg" alt=""/>
@@ -90,27 +95,12 @@
   </div>
 </div>
 
-<section class="third-section">
-    <div class="txt-input-btn s3">
-      <h3>Get early access today</h3>
-      <p>
-        It only takes a minute to sign up and our free starter tier is
-        extremely generous. If you have any questions, our support team
-        would be happy to help you.
-      </p>
-    </div>
-    <div class="txt-input-btn">
-      <input type="email" placeholder="email@example.com"/>
-      <button>Get Started For Free</button>
-    </div>
-  </div>
-</section>
 
 <section class="post-s3">
   <div class="above-footer">
     <div class="post-s3-txt">
       <h3>Get early access today</h3>
-      <p>
+      <p class="one">
         It only takes a minute to sign up and our free starter tier is
         extremely generous. If you have any questions, our support team
         would be happy to help you.
